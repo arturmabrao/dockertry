@@ -1,6 +1,4 @@
-docker build -t NAME:1.0 .  #point is the Dockerfile way's
+docker build -t NAME:1.0 .  #point is the Dockerfile path
 
-docker run -it -p 8080:80 -p 3306:3306 NAME:1.0 - OR - docker run -it -p 8080:80 -p 3306:3306 NAME:1.0
-
-
+docker run -p <host_port1>:<container_port1> 
 
